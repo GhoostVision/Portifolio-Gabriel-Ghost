@@ -28,6 +28,7 @@ h1{
 
 .nav-menu{
    list-style-type: none;
+   transition: 0.3s;
 }
 
 .text-nav{

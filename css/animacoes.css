@@ -12,3 +12,8 @@
 	transform: scale(1.08);
 	text-shadow: 0px 0px 10px white;
 }
+
+.nav-menu:hover{
+ margin: 0 0 10px 0;
+ transform: scale(1.05); 
+}

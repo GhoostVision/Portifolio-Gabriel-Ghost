@@ -15,7 +15,7 @@
 
 }
 
-@media(max-width: 450px){
+@media(max-width: 480px){
 
 	main{
 		padding: 1px;
@@ -39,6 +39,10 @@
 
 	.container-home{
 		width: 100%;
+	}
+
+	.container-home p{
+		width: 95%;
 	}
     
 
@@ -71,6 +75,10 @@
     	width: 100%;
     }
 
+    .sobre-tecnologia{
+    	width: 95%
+    }
+
     .card-sobre-mim{
     	margin: 0;
     	justify-content: center;
@@ -83,6 +91,10 @@
 
     .tecnologia-usada{
     	padding: 5px;
+    }
+
+    .contato-informacoes h3{
+      width: 90%;
     }
 
     .contato-links a{
