@@ -1,0 +1,36 @@
+body{
+	margin: 0px;
+}
+
+h1{
+	padding: 10px;
+	color: white;
+}
+
+.menu{
+	background-color: rgba(0, 0, 0, 1);
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.navegacao{
+	width: 75%;
+	height: 50px;
+}
+
+.container-nav-menu{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-menu{
+   list-style-type: none;
+}
+
+.text-nav{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}

@@ -1,0 +1,29 @@
+@media(max-width: 736px){
+
+	main figure img{
+		display: none;
+		width: 0%;
+	}
+
+	main figure{
+		display: none;
+	}
+
+	.home{
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 360px){
+	header nav{
+		display: none;
+	}
+
+}
+
+@media(max-width: 500px){
+	header nav{
+		display: none;
+	}
+}
