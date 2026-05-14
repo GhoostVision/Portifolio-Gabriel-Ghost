@@ -1,66 +1,78 @@
 section{
-	border:2px solid blue;
 }
 main{
 	background: rgba(0, 0, 0, 1);
 	color: white; 
 	padding: 20px;
 }
-.container{
+
+.sub-titulos{
+  font-size: 30px;
+  font-weight: 200;
+  margin:20px 0 20px 20px;
+}
+
+.sub-titulos::after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2px;
+	background: white;
+	margin: 5px 0 10 0;
+}
+
+.titulos-principal{
+   margin:10px 0 10px 20px;
+   font-size: 15px;
+   font-weight: 800;
+}
+.home{
+	margin:50px 0;
 	display: flex;
 }
 .container-home{
-	margin: 40px 0;
+	margin: 30px 0;
 	width: 50%;
 	max-height: 350px;
 }
 
-main figure{
+.container-home figure{
 	width: 50%;
 }
 
-main article h2{
+.container-home h2{
 	font-size: 30px;
 	font-weight: 100;
 	max-width: 500px;
+	margin: 20px 0 0 20px;
 
 }
 
-main article p {
-	margin: 30px 0;
+.container-home p {
+	margin: 20px 0 0 20px;
 	font-size: 15px;
-	max-width: 400px;
+	max-width: 350px;
 }
 
-main article h2 strong{
+.container-home h2 strong{
 	font-weight: 800;
 }
 
-main article button{
-	margin: 30px 0;
+.container-home button{
+	margin: 30px 0 0 20px;
 	border: 1px solid white;
 	background: rgba(0,0,0,1);
 	color: white;
 	padding: 8px; 
 }
 
-main figure img{
+.home figure img{
 	background-repeat: no-repeat;
 	max-width: 500px;
 	height: 350px;
 	background-position: center;
 }
-.projetos{
-}
 
-
-.titulo-projeto{
-  margin:20px 0 20px 40px;
-}
-
-.sub-ti-projeto{
-  margin:20px 0 20px 40px;
-}
 
 .container-projeto{
 	display: flex;
@@ -72,59 +84,58 @@ main figure img{
 
 .cards-projeto img{
 	width: 260px;
-	height: 100px;
+	height: 140px;
 	border-radius: 5px;
 }
 
 .cards-projeto{
  background-color: rgb(30,30,30);
- height: 260px;
+ height: 330px;
  width: 280px;
- margin: 0 10px 0 10px;
+ margin: 0 10px 0 20px;
  border-radius: 10px;
+ border:1px solid gray;
  display: flex;
  align-items: center;
  justify-content: center;
  flex-direction: column;
- text-align: center;
 }
 
 .cards-projeto h3{
+	font-weight: 800;
 	margin: 10px;
-}
-
-.cards-projeto button{
-	margin: 0 0 0 20px;
-	border:none;
+	margin: 10px 10px 5px 10px;
 	align-self: flex-start;
 }
 
+.cards-projeto button{
+	margin: 15px 0 0 10px;
+	font-weight: 800;
+	border:none;
+	align-self: flex-start;
+	background: rgb(30,30,30);
+	color: white;
+}
+
 .cards-projeto p {
-	margin: 5px 0 5px 0;
+	margin: 5px 10px 5px 10px;
+	font-size: 15px;
 }
 
 .sobre-mim{
+	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.sobre-mim h2{
-   margin:10px 0 10px 40px;
-}
-
-.sobre-mim h3{
-   margin:10px 0 10px 40px;
+	margin: 50px 0;
 }
 
 .sobre-mim p{
-  border:3px solid purple;
   align-self: center;
-  margin: 10px 0;
+  margin: 30px 20px 20px 20px;
 }
 
 .sobre-mim figure{
  width: 50%;
-  border:3px solid pink;
 }
 
 .sobre-mim img{
@@ -137,11 +148,9 @@ main figure img{
  display: flex;
  flex-direction: column;
  justify-content: center;
- border:3px solid yellow;
 }
 
 .card-sobre-mim-con{
-	border:2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,38 +161,52 @@ main figure img{
 	flex-direction: column;
 	justify-content: flex-end;
     width: 150px;
-    height: 150px;
-    border:2px solid gray;
-    margin: 10px 20px 10px 20px;
+    height: 125px;
+    margin: 0px 20px 30px 20px;
 }
 
 .card-sobre-mim span{
-	margin: 10px;
+	margin: 0;
+	font-size: 18px;
 }
+
+.card-sobre-mim span strong{
+   font-size: 30px;
+}
+
 
 .tecnologias{
 	display: flex;
 }
 
 .sobre-tecnologia{
- width: 50%;
+ width: 40%;
+ margin: 0 20px 0 0;
+}
+
+.sobre-tecnologia p{
+  margin:10px 0 10px 20px;
 }
 
 .tecnologia-usada{
 	display: flex;
 	padding: 20px;
+
 }
 
 .tecnologia-usada div{
 	display: flex;
 	flex-direction: column;
-	margin:0 10px 0 10px;
+	margin:0 50px 0 0;
+	border-left: 1px solid gray;
 }
 
 .tecnologia-usada div span{
 	padding: 2px;
+	margin:0 20px;
 }
 
 .tecnologia-usada div h4{
 	padding: 2px;
+	margin:0 20px;
 }

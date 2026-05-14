@@ -15,11 +15,72 @@
 
 }
 
-@media(max-width: 360px){
+@media(max-width: 450px){
 	header nav{
 		display: none;
 	}
 
+	section{
+		margin: 20px 0;
+	}
+
+	section article{
+		margin: 0;
+	}
+
+	.home{
+		margin: 10px 0 80px 0;
+	}
+
+	.container-home{
+		width: 100%;
+	}
+    
+    .projetos h2{
+      margin: 10px 0;
+    }
+
+    .projetos h3{
+      margin: 10px 0;
+    }
+
+	.container-home button{
+		margin: 10px 0 5px 20px;
+	}
+
+	.cards-projeto{
+		margin: 10px 0 10px 0;
+	}
+
+	.cards-projeto h3{
+		margin: 10px 0 10px 10px;
+	}
+
+	.sobre-mim article{
+		width: 100%
+	}
+
+	.card-sobre-mim{
+		margin: 10px 5px 10px 5px
+	}
+
+	.tecnologias{
+		display: flex;
+		flex-direction: column;
+	}
+    
+    .sobre-tecnologia{
+    	width: 100%;
+    }
+
+    .card-sobre-mim{
+    	margin: 0;
+    	justify-content: center;
+    }
+
+    .tecnologia-usada div{
+    	margin: 0px;
+    }
 }
 
 @media(max-width: 500px){
