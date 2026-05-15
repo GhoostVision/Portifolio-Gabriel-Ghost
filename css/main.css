@@ -211,6 +211,24 @@ main{
 	margin:0 20px;
 }
 
+.contato{
+	margin: 40px 0;
+}
+
 .icons-tecnologia{
 	margin: 0px 10px;
+}
+
+.contato-informacoes p{
+  margin:20px 0 20px 20px;
+  width: 300px;
+}
+
+.contato-links{
+	margin: 20px 0 20px 20px;
+}
+
+.contato-links a{
+	color: white;
+	margin: 0 5px;
 }

@@ -79,8 +79,14 @@
     }
 
     .tecnologia-usada div{
-    	margin: 0px;
+    	margin: 0;
     }
+
+    .contato-links a{
+    	font-size: 20px;
+    	margin: 0;
+    }
+
 }
 
 @media(max-width: 500px){
