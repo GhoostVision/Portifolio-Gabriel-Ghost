@@ -203,10 +203,14 @@ main{
 
 .tecnologia-usada div span{
 	padding: 2px;
-	margin:0 20px;
+	margin: 2px 20px;
 }
 
 .tecnologia-usada div h4{
 	padding: 2px;
 	margin:0 20px;
+}
+
+.icons-tecnologia{
+	margin: 0px 10px;
 }
