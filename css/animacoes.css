@@ -1,0 +1,14 @@
+.container-home button:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 0px 10px white;
+}
+
+.cards-projeto:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 0px 10px;
+}
+
+.cards-projeto button:hover{
+	transform: scale(1.08);
+	text-shadow: 0px 0px 10px white;
+}

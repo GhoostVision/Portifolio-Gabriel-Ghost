@@ -1,0 +1,18 @@
+footer{
+	background: rgb(30, 30 , 30);
+	display: flex;
+	align-items: center;
+	border-top: 2px solid rgba(196, 196, 196, 0.1);
+}
+
+footer p {
+	color: white;
+	padding: 5px;
+	font-size: 13px;
+}
+
+footer i{
+	color: white;
+	padding: 5px;
+	margin: 0 20px;
+}

@@ -16,6 +16,11 @@
 }
 
 @media(max-width: 450px){
+
+	main{
+		padding: 1px;
+	}
+
 	header nav{
 		display: none;
 	}
@@ -36,13 +41,6 @@
 		width: 100%;
 	}
     
-    .projetos h2{
-      margin: 10px 0;
-    }
-
-    .projetos h3{
-      margin: 10px 0;
-    }
 
 	.container-home button{
 		margin: 10px 0 5px 20px;
@@ -80,11 +78,20 @@
 
     .tecnologia-usada div{
     	margin: 0;
+    	padding: 0;
+    }
+
+    .tecnologia-usada{
+    	padding: 5px;
     }
 
     .contato-links a{
-    	font-size: 20px;
     	margin: 0;
+    }
+
+    .contato-links{
+    	flex-direction: column;
+    	display: flex;
     }
 
 }
